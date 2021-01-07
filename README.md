@@ -95,7 +95,7 @@ public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletRespo
 ----
 - token 获取
 
-![token 获取](/image/token获取.jpg)
+![token 获取](https://github.com/chengxubang/restfulDemo/blob/main/image/token%E8%8E%B7%E5%8F%96.jpg)
 
 ```diff
 @GetMapping("/token")
@@ -115,7 +115,7 @@ public JSONObject token(HttpServletResponse response ){
 
 - 验证token
 
-![验证token](/image/验证token.jpg)
+![验证token](https://github.com/chengxubang/restfulDemo/blob/main/image/%E9%AA%8C%E8%AF%81token.jpg)
 
 ```diff
 //主要@UserLoginToken发挥验证作用，否则验证成功
@@ -127,7 +127,7 @@ public String getMessage(){
 ```
 - get 请求
 
-![get请求](/image/get 请求.jpg)
+![get请求](https://github.com/chengxubang/restfulDemo/blob/main/image/get%20%E8%AF%B7%E6%B1%82.jpg)
 
 ```diff
 @UserLoginToken
@@ -145,7 +145,7 @@ public String getPlan(@PathVariable String id, HttpServletResponse response) {
 
 - post 请求
 
-![post请求](/image/post 请求.jpg)
+![post请求](https://github.com/chengxubang/restfulDemo/blob/main/image/post%20%E8%AF%B7%E6%B1%82.jpg)
 
 ```diff
 @UserLoginToken
@@ -169,7 +169,7 @@ public String addPlan(@RequestBody JSONObject jsonObject, HttpServletResponse re
 
 - delete请求
 
-![delete请求](/image/delete 请求.jpg)
+![delete请求](https://github.com/chengxubang/restfulDemo/blob/main/image/delete%20%E8%AF%B7%E6%B1%82.jpg)
 
 ```diff
 @UserLoginToken
@@ -188,7 +188,7 @@ public String deletePlan(@PathVariable String id, HttpServletResponse response) 
 
 - patch 请求
 
-![patch请求](/image/patch 请求.jpg)
+![patch请求](https://github.com/chengxubang/restfulDemo/blob/main/image/patch%20%E8%AF%B7%E6%B1%82.jpg)
 
 ```diff
 @UserLoginToken
@@ -213,7 +213,7 @@ public String patchPlan(@RequestBody JSONObject jsonObject, @PathVariable String
 ```
 - put请求
 
-![put请求](/image/put 请求.jpg)
+![put请求](https://github.com/chengxubang/restfulDemo/blob/main/image/put%20%E8%AF%B7%E6%B1%82.jpg)
 
 ```diff
 @UserLoginToken
