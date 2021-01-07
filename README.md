@@ -127,7 +127,7 @@ public String getMessage(){
 ```
 - get 请求
 
-![get 请求](/image/get 请求.jpg)
+![get请求](/image/get 请求.jpg)
 
 ```diff
 @UserLoginToken
@@ -145,7 +145,7 @@ public String getPlan(@PathVariable String id, HttpServletResponse response) {
 
 - post 请求
 
-![post 请求](/image/post 请求.jpg)
+![post请求](/image/post 请求.jpg)
 
 ```diff
 @UserLoginToken
@@ -167,9 +167,9 @@ public String addPlan(@RequestBody JSONObject jsonObject, HttpServletResponse re
 ```
 
 
-- delete 请求
+- delete请求
 
-![delete 请求](/image/delete 请求.jpg)
+![delete请求](/image/delete 请求.jpg)
 
 ```diff
 @UserLoginToken
@@ -188,7 +188,7 @@ public String deletePlan(@PathVariable String id, HttpServletResponse response) 
 
 - patch 请求
 
-![patch 请求](/image/patch 请求.jpg)
+![patch请求](/image/patch 请求.jpg)
 
 ```diff
 @UserLoginToken
@@ -211,9 +211,9 @@ public String patchPlan(@RequestBody JSONObject jsonObject, @PathVariable String
     return "Patched Success" + "\n" + id;
 }
 ```
-- put 请求
+- put请求
 
-![put 请求](/image/put 请求.jpg)
+![put请求](/image/put 请求.jpg)
 
 ```diff
 @UserLoginToken
